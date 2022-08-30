@@ -1,0 +1,72 @@
+/* // quick flex properties // */
+.flex{
+    display: flex;
+}
+.col{
+    flex-direction: column;
+}
+.justify{
+    justify-content: center;
+}
+.align{
+    align-items: center;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-even{
+    justify-content: space-evenly;
+}
+.space-between{
+    justify-content: space-between;
+}
+
+.align-self-start{
+    align-self: flex-start;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+
+/* border effects */
+.border-right-gray{
+    border-left: #6A7078 2px solid;
+}
+.box-shadow{
+
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 0 1.6px;
+}
+
+.spec-shadow{
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+/* padding/margins */
+
+.margin-0{
+    margin: 0;
+}
+.padding-0{
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .margin-title{
+        /* margin-top: 10px; */
+        margin-bottom: 40px;
+        top: 10%;
+        position: absolute;
+    }
+}
+
+/* position */
+
+.bottom-0{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
